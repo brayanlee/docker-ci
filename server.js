@@ -4,7 +4,7 @@ var port = 4000
 
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {'Content-Type': 'text/plain'})
-  response.end('Hello World, docker ci test \n')
+  response.end('Hello World, docker ci test - v2.0 \n')
 })
 
 server.listen(port)
