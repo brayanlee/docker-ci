@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            moveho/ci:latest
-            moveho/ci:${{ github.sha }}
+            dbgurum/nodejs-ci:v1.0
+            dbgurum/nodejs-ci:${{ github.sha }}
