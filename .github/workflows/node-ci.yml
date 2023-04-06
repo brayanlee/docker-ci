@@ -29,6 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
-            dbgurum/nodejs-ci:latest
-            dbgurum/nodejs-ci:${{ github.sha }}
+          tags: dbgurum/nodejs-ci:latest
