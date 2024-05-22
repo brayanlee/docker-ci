@@ -8,4 +8,4 @@ kind: Kustomization
 images:
 - name: docker.io/dbgurum/grayround
   #newTag: 2.0
-  newPullPolicy: Always
+  #newPullPolicy: Always
