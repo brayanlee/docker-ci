@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: grayround
+  name: grayround
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grayround
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: grayround
+    spec:
+      containers:
+      - image: dbgurum/grayround:v1.0
+        name: grayround
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}
